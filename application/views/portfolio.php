@@ -3,13 +3,13 @@
     <div class="container">
 
       <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Portfolio 1
-        <small>Subheading</small>
+      <h1 class="mt-4 mb-3">Portfolio
+        <small>Student Portfolio</small>
       </h1>
 
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <a href="index.html">Home</a>
+          <a href="<?=base_url('index.php/home')?>">Home</a>
         </li>
         <li class="breadcrumb-item active">Portfolio 1</li>
       </ol>

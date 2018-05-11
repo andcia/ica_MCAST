@@ -4,14 +4,14 @@
 
       <!-- Page Heading/Breadcrumbs -->
       <h1 class="mt-4 mb-3">Contact
-        <small>Subheading</small>
+        <small>Contact Us</small>
       </h1>
 
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <a href="index.html">Home</a>
+          <a href="home">Home</a>
         </li>
-        <li class="breadcrumb-item active">Contact</li>
+        <li class="breadcrumb-item active">Contact US</li>
       </ol>
 
       <!-- Content Row -->

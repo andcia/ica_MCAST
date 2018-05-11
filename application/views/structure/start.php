@@ -11,10 +11,10 @@
     <title>MCAST ICA</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=base_url('vendor/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="<?=base_url('css/modern-business.css');?>" rel="stylesheet">
 
   </head>
 
@@ -23,8 +23,8 @@
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="home.php">
-            <img src="images/mcast.png" class"img-responsive" width="150"/>
+        <a class="navbar-brand" href="<?=base_url('home')?>">
+            <img src="<?=base_url('images/mcast.png')?>" class"img-responsive" width="150"/>
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -41,30 +41,29 @@
                 <a class="dropdown-item" href="http://ict.mcast.edu.mt/wp-content/uploads/DOC-104-REV-D-REQUEST-FOR-CONSIDERATION-OF-EXTENUATING-CIRCUMSTANCES-FOR-EXTENSION-OF-THE-SUBMISSION-DEADLINE-OF-HOME-BASED-ASSIGNMENTS-FORM.pdf">Home Request Form</a>
                 <a class="dropdown-item" href="http://mcast.edu.mt/searchOurCatalogue">Library</a>
                 <a class="dropdown-item" href="https://www.schoology.com/">Schoology</a>
-                <a class="dropdown-item" href="portfolio-item.html">TCA Request Form</a>
+                <a class="dropdown-item" href="<?=base_url('portfolio')?>">TCA Request Form</a>
                 <a class="dropdown-item" href="http://ict.mcast.edu.mt/wp-content/uploads/Groups-15.pdf">Time Table</a>
                 <a class="dropdown-item" href="http://attendance.mcast.edu.mt/MyAttendance">Student Attendance</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.php">
+              <a class="nav-link" href="<?=base_url('index.php/portfolio')?>">
                 Student Portfolio
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">
+              <a class="nav-link" href="<?=base_url('index.php/about')?>">
                 Activities
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
-                <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-                <a class="dropdown-item" href="blog-post.html">Blog Post</a>
+                <a class="dropdown-item" href="<?=base_url('blog-home-1.html')?>">Blog Home 1</a>
+                <a class="dropdown-item" href="<?=base_url('blog-post.html')?>">Blog Post</a>
               </div>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="<?=base_url('index.php/about')?>">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.php">Contact Us</a>
+                <a class="nav-link" href="<?=base_url('index.php/contact')?>">Contact Us</a>
               </li>
             </li>
           </ul>

@@ -8,10 +8,9 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('images/student.jpg')">
+          <div class="carousel-item active" style="background-image: url('images/student.jpg">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Student Portfolio</h3>
-              <p>View Student Porftolios</p>
+            <a class="btn btn-lg btn-secondary btn-block" href="<?=base_url('index.php/portfolio')?>">Student Portfolio</a>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
@@ -192,19 +191,3 @@
 
     </div>
     <!-- /.container -->
-
-        <!-- Footer -->
-        <footer class="py-5 bg-dark">
-          <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
-          </div>
-          <!-- /.container -->
-        </footer>
-
-        <!-- Bootstrap core JavaScript -->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-      </body>
-
-    </html>

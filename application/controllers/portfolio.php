@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class portfolio extends CI_Controller {
+class Portfolio extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -21,7 +21,7 @@ class portfolio extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('structure/start');
-		$this->load-view('portfolio');
+		$this->load->view('portfolio');
 		$this->load->view('structure/end');
 	}
 }

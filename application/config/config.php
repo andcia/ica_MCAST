@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'ica_mcast';
+$config['base_url'] = 'http://localhost/mcast_ica_github/';
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +35,7 @@ $config['base_url'] = 'ica_mcast';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'home';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------
