@@ -23,7 +23,7 @@
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="<?=base_url('home')?>">
+        <a class="navbar-brand" href="<?=base_url('index.php/home')?>">
             <img src="<?=base_url('images/mcast.png')?>" class"img-responsive" width="150"/>
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,8 +52,8 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?=base_url('index.php/about')?>">
-                Activities
+              <a class="nav-link" href="<?=base_url('index.php/services')?>">
+                Services
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
                 <a class="dropdown-item" href="<?=base_url('blog-home-1.html')?>">Blog Home 1</a>

@@ -4,7 +4,6 @@
 
       <!-- Page Heading/Breadcrumbs -->
       <h1 class="mt-4 mb-3">Contact
-        <small>Contact Us</small>
       </h1>
 
       <ol class="breadcrumb">
@@ -34,7 +33,7 @@
           </p>
           <p>
             <abbr title="Email">E</abbr>:
-            <a href="mailto:name@example.com">name@example.com
+            <a href="mailto:andreciappara@gmail.com">andreciappara@gmail.com
             </a>
           </p>
           <p>
