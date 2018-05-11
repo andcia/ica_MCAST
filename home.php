@@ -1,11 +1,4 @@
-<div id="overlay">
-   <div id="progstat"></div>
-   <div id="progress"></div>
- </div>
 
- <div id="container">
-   <img src="http://placehold.it/3000x3000/cf5">
- </div>
     <header>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -18,7 +11,7 @@
           <div class="carousel-item active" style="background-image: url('images/student.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <h3>Student Portfolio</h3>
-              <a href="portfolio.php">View Student Porftolios</a>
+              <p>View Student Porftolios</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
@@ -29,7 +22,7 @@
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('images/student.jpg')">
+          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
             <div class="carousel-caption d-none d-md-block">
               <h3>Third Slide</h3>
               <p>This is a description for the third slide.</p>
@@ -199,3 +192,19 @@
 
     </div>
     <!-- /.container -->
+
+        <!-- Footer -->
+        <footer class="py-5 bg-dark">
+          <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+          </div>
+          <!-- /.container -->
+        </footer>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      </body>
+
+    </html>
