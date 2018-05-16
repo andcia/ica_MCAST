@@ -2,8 +2,15 @@
         <footer class="py-5 bg-dark">
               <div class="container">
                 <a class="navbar-brand" href="<?=base_url('index.php/home')?>">
-                    <img src="<?=base_url('images/mcast.png')?>" class"img-responsive" width="100"/>
+                    <img src="<?=base_url('images/mcast.png')?>" class"img-responsive" width="150"/>
                 </a>
+                <!--Social buttons-->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <!-- Add font awesome icons -->
+                    <a href="http://www.facebook.com" class="fa fa-facebook"></a>
+                    <a href="http://www.twitter.com" class="fa fa-twitter"></a>
+                    <a href="http://www.google.com" class="fa fa-google"></a>
+                <!--/.Social buttons-->
           <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
 
     <!--Footer Links-->
@@ -12,7 +19,7 @@
 
             <!--First column-->
             <div class="col-md-4">
-                <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Footer Content</h5>
+                <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">MCAST ICA</h5>
                 <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
                     amet, consectetur adipisicing elit.</p>
             </div>
@@ -22,19 +29,28 @@
 
             <!--Second column-->
             <div class="col-md-2 mx-auto">
-                <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Links</h5>
+                <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Services</h5>
                 <ul class="list-unstyled">
                     <li>
-                        <a href="#!">Link 1</a>
+                        <a href="#!">Email</a>
                     </li>
                     <li>
-                        <a href="#!">Link 2</a>
+                        <a href="#!">Handbook</a>
                     </li>
                     <li>
-                        <a href="#!">Link 3</a>
+                        <a href="#!">Home Request Form</a>
                     </li>
                     <li>
-                        <a href="#!">Link 4</a>
+                        <a href="#!">Library</a>
+                    </li>
+                    <li>
+                        <a href="#!">Schoology</a>
+                    </li>
+                    <li>
+                        <a href="#!">Timetable</a>
+                    </li>
+                    <li>
+                        <a href="#!">Student Attendance</a>
                     </li>
                 </ul>
             </div>
@@ -43,86 +59,32 @@
             <hr class="clearfix w-100 d-md-none">
 
             <!--Third column-->
-            <div class="col-md-2 mx-auto">
-                <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Links</h5>
-                <ul class="list-unstyled">
+            <div class="col-md-4 mx-auto">
+                <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Other Links</h5>
+                <ul class="list-unstyled text-uppercase mb-4 mt-3 font-weight-bold">
                     <li>
-                        <a href="#!">Link 1</a>
+                        <a href="#!">Student Portfolio</a>
                     </li>
                     <li>
-                        <a href="#!">Link 2</a>
+                        <a href="#!">About</a>
                     </li>
                     <li>
-                        <a href="#!">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 4</a>
+                        <a href="#!">Contact Us</a>
                     </li>
                 </ul>
             </div>
             <!--/.Third column-->
-
-            <hr class="clearfix w-100 d-md-none">
-
-            <!--Fourth column-->
-            <div class="col-md-2 mx-auto">
-                <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Links</h5>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#!">Link 1</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 4</a>
-                    </li>
-                </ul>
-            </div>
-            <!--/.Fourth column-->
         </div>
     </div>
     <!--/.Footer Links-->
     <hr>
-    <!--Social buttons-->
-    <div class="text-center">
-        <ul class="list-unstyled list-inline">
-            <li class="list-inline-item">
-                <a class="btn-floating btn-sm btn-fb mx-1">
-                    <i class="fa fa-facebook"> </i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a class="btn-floating btn-sm btn-tw mx-1">
-                    <i class="fa fa-twitter"> </i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a class="btn-floating btn-sm btn-gplus mx-1">
-                    <i class="fa fa-google-plus"> </i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a class="btn-floating btn-sm btn-li mx-1">
-                    <i class="fa fa-linkedin"> </i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a class="btn-floating btn-sm btn-dribbble mx-1">
-                    <i class="fa fa-dribbble"> </i>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <!--/.Social buttons-->
-
        <!--Copyright-->
        <div class="footer-copyright py-3 text-center">
            © 2018 Copyright:
            <a> MCAST ICA </a>
+           <br/>
+           <a> Crafted by. André Ciapara, Dylan Cacciattolo & Matthew Agius</a>
+        <hr>
        </div>
        <!--/.Copyright-->
 
