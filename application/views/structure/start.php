@@ -66,6 +66,30 @@
                 <a class="nav-link" href="<?=base_url('index.php/contact')?>">Contact Us</a>
               </li>
             </li>
+            <li class="nav-item dropdown">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Login
+                </button>
+                <form class="dropdown-menu p-4">
+                    <div class="form-group">
+                      <label for="exampleDropdownFormEmail2">Email address</label>
+                      <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleDropdownFormPassword2">Password</label>
+                      <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                      <label class="form-check-label" for="dropdownCheck2">
+                        Remember me
+                      </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                  </form>
+              </div>
+          </li>
           </ul>
         </div>
       </div>
