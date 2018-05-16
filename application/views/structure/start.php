@@ -12,8 +12,6 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<?=base_url('vendor/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="<?=base_url('css/modern-business.css');?>" rel="stylesheet">
 
   </head>
@@ -44,8 +42,7 @@
                 <a class="dropdown-item" href="<?=base_url('portfolio')?>">TCA Request Form</a>
                 <a class="dropdown-item" href="http://ict.mcast.edu.mt/wp-content/uploads/Groups-15.pdf">Time Table</a>
                 <a class="dropdown-item" href="http://attendance.mcast.edu.mt/MyAttendance">Student Attendance</a>
-              </div>
-            </li>
+            </div>
             <li class="nav-item">
               <a class="nav-link" href="<?=base_url('index.php/portfolio')?>">
                 Student Portfolio
@@ -89,6 +86,7 @@
                     <button type="submit" class="btn btn-primary">Sign in</button>
                   </form>
               </div>
+            </li>
           </li>
           </ul>
         </div>
