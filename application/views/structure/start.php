@@ -40,7 +40,8 @@
                 <a class="dropdown-item" href="http://mcast.edu.mt/searchOurCatalogue">Library</a>
                 <a class="dropdown-item" href="https://www.schoology.com/">Schoology</a>
                 <a class="dropdown-item" href="<?=base_url('portfolio')?>">TCA Request Form</a>
-                <a class="dropdown-item" href="http://ict.mcast.edu.mt/wp-content/uploads/Groups-15.pdf">Time Table</a>
+                <a class="dropdown-item" href="http://ictats.mcast.edu.mt:8085/">Time Table</a>
+                <a class="dropdown-item" href="http://attendance.mcast.edu.mt/MyAttendance">Your Assignment</a>
                 <a class="dropdown-item" href="http://attendance.mcast.edu.mt/MyAttendance">Student Attendance</a>
             </div>
             <li class="nav-item">
@@ -63,7 +64,11 @@
                 <a class="nav-link" href="<?=base_url('index.php/contact')?>">Contact Us</a>
               </li>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link" href="<?=base_url('index.php/login')?>">Login</a>
+            </li>
+          </li>
+            <!--<li class="nav-item dropdown">
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Login
@@ -86,7 +91,7 @@
                     <button type="submit" class="btn btn-primary">Sign in</button>
                   </form>
               </div>
-            </li>
+          </li>-->
           </li>
           </ul>
         </div>
