@@ -60,7 +60,7 @@
 
             <!--Third column-->
             <div class="col-md-4 mx-auto">
-                <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Other Links</h5>
+                <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Page Links</h5>
                 <ul class="list-unstyled text-uppercase mb-4 mt-3 font-weight-bold">
                     <li>
                         <a href="#!">Student Portfolio</a>
