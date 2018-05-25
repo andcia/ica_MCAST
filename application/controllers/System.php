@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class System extends MY_Controller {
+class System extends CI_Controller {
 
     # The constructor class
     function __construct()
@@ -89,7 +89,7 @@ class System extends MY_Controller {
         $this->session->set_userdata($data);
 
         # 10. Redirect home
-        redirect('home/success');
+        redirect('home/system');
 
     }
 

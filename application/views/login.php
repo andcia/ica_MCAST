@@ -26,7 +26,7 @@
               <label class="checkbox">
                 <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
               </label>
-              <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+              <button class="btn btn-lg btn-primary btn-block" href="<?php echo site url('Login/login_submit');?>" type="submit">Login</button>
             </form>
           </div>
         </div>
